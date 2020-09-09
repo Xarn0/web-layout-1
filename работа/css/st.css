@@ -11,7 +11,7 @@ main{
   margin: 0 auto;
 }
 .wrap {
-  background-image: url(img/headerFon.png);
+  background-image: url(/работа/img/headerFon.png);
   background-size: cover;
 }
 
