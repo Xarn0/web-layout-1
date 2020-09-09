@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body{
+  min-width: 1200px ;
+}
+main{
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrap {
+  background-image: url(/img/headerFon.png);
+  background-size: cover;
+}
+
+header {
+  height: 482px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav .nav--logo {
+  font-size: 114px;
+  margin: 10px;
+  color: rgba(255, 255, 255, 0.541);
+  font-weight: 200;
+  margin-top: 20px;
+  margin-left: 188px;
+}
+header nav ul {
+  display: flex;
+  margin: 18px 145px 0 0;
+}
+header nav ul > li {
+  letter-spacing: 0.8;
+  padding: 27px;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.541);
+  font-size: 24px;
+  font-weight: 100;
+}
+header nav ul > li > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.541);
+}
+header .introducing {
+  position: relative;
+  max-width: 50%;
+  top: 20px;
+  margin: 0 auto;
+  height: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 1;
+}
+header .introducing::before {
+  content: "";
+  background-image: url(/img/arrow1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 740px;
+  top: 94px;
+  width: 140px;
+  height: 60px;
+}
+header .introducing::after {
+  content: "";
+  background-image: url(/img/arrows.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: -225px;
+  top: 77px;
+  width: 120px;
+  height: 60px;
+}
+header .introducing .introducing--text {
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 60px;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-left: 35px;
+}
+header .introducing .introducing--text > p {
+  font-size: 45px;
+}
+header .introducing .introducing--text > button {
+  font-size: 25px;
+  border: none;
+  padding: 5px 13px;
+  background-color: #296f4e;
+  color: rgba(255, 255, 255, 0.692);
+}
+
+.tabl {
+  position: relative;
+  max-width: 1080px;
+  height: 900px;
+  margin: 0 auto;
+}
+.tabl > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 78px;
+}
+.tabl > ul .tabl_icon {
+  text-align: center;
+  line-height: 1;
+}
+.tabl > ul .tabl_icon:last-child {
+  margin-right: 66px;
+  margin-left: 50px;
+}
+.tabl > ul .tabl_icon:nth-child(2) {
+ 
+  border: 1px solid #dedede;
+  border-bottom:1px solid #fff;
+  padding: 25px 50px;
+  z-index: 10;
+  margin-top: -24px;
+  height: 260px;
+}
+/* .tabl > ul .tabl_icon:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  width: 586px;
+  height: 1px;
+  left: 253px;
+  top: 295px;
+  background-color: #dedede;
+}
+.tabl > ul .tabl_icon:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 244px;
+  height: 1px;
+  right: 253px;
+  top: 295px;
+  background-color: #dedede;
+} */
+.tabl > ul .tabl_icon > h4 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.tabl > ul .tabl_icon > p {
+  font-size: 27px;
+}
+
+.taml-bloktwy {
+ 
+  border: 1px solid #dedede;
+  
+  padding: 20px;
+  padding-top: -1px;
+  margin-top: -1px;
+  max-width: 1080px;
+}
+.taml-bloktwy .taml_img {
+  margin: 57px 0px 0px 142px;
+}
+.taml-bloktwy > h3 {
+  font-size: 41px;
+  font-weight: 300;
+  margin: 0 0 27px 4px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}
+.taml-bloktwy > p {
+  line-height: 20px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}
+.taml-bloktwy > p > p:first-child {
+  color: red;
+  margin-top: 60px;
+}
+
+.brawer {
+  display: flex;
+  max-width: 1080px;
+  margin: 130px auto 0;
+  justify-content: space-between;
+  line-height: 2;
+}
+.brawer .brawer--h3 {
+  font-size: 31px;
+  margin-bottom: 20px;
+}
+.brawer .brawer--li {
+  position: relative;
+  left: 30px;
+}
+.brawer .brawer--li::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  left: -60px;
+  top: -5px;
+  height: 30px;
+  background-image: url(/img/gal.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.brawer .brawer--list > li {
+  list-style-type: none;
+}
+
+footer {
+  color: #a1a178;
+  padding: 50px;
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #2e2e2e;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100px;
+}
+footer > div > ul > li {
+  list-style-type: none;
+}
+
+footer .logo {
+  font-size: 120px;
+  font-weight: 100;
+  font-style: italic;
+}
+footer .footer--h5 {
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 20px;
+}
+#youP::selection{
+ color: rgb(94, 255, 0);
+background-color: #a1a178;
+caret-color: #0fff;
+}
