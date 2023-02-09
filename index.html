@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1200">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="работа/css/st.css" >
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     
     <title>Document</title>
 </head>
@@ -20,19 +22,60 @@
           <li><a href="">Contact</a></li>
           <!-- Solutions        Products       Portfolio          Contact -->
       </ul></nav>
-      <div class="introducing">
-          <div><img class="introducing--img" src="работа/img/headerDiv.png" alt="тарелка"></div>
-         <div class="introducing--text">
-             <h3> Introducing</h3>
-              <p> Something hot......</p>  
-              <button>Try Demo</button>
+      <div class="swiper myswiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                        <div class="introducing">
+                        <div>
+                            <img class="introducing--img" src="работа/img/headerDiv.png" alt="тарелка">
+                        </div>
+                        <div class="introducing--text">
+                            <h3> Introducing</h3>
+                            <h4>Slide #1</h4>
+                            <p> Something hot......</p>  
+                            <button>Try Demo</button>
+                                
+                    </div> 
+            </div>
+            </div>
+            <div class="swiper-slide">
+                        <div class="introducing">
+                        <div>
+                            <img class="introducing--img" src="работа/img/headerDiv.png" alt="тарелка">
+                        </div>
+                        <div class="introducing--text">
+                            <h3> Introducing</h3>
+                            <h4>Slide #2</h4>
+                            <p> Something hot......</p>  
+                            <button>Try Demo</button>
+                                
+                    </div> 
+            </div>
+            </div>
+            <div class="swiper-slide">
+                        <div class="introducing">
+                        <div>
+                            <img class="introducing--img" src="работа/img/headerDiv.png" alt="тарелка">
+                        </div>
+                        <div class="introducing--text">
+                            <h3> Introducing</h3>
+                            <h4>Slide #3</h4>
+                            <p> Something hot......</p>  
+                            <button>Try Demo</button>
+                                
+                    </div> 
+            </div>
+            </div>
             
-         </div> 
+        </div>
+        <div class="myswiper__paginator-next"></div>
+        <div class="myswiper__paginator-prev"></div>
       </div>
+      
   </header></section>
   <section class="tabl font">
      <ul >
-         <li class="tabl_icon"> 
+         <li class="tabl_icon active"> 
              <img src="работа/img/tabl1.png" alt="menu">
              <h4>Responsive</h4>
              <p>Websites</p>
@@ -175,5 +218,8 @@
     <address>© cssauthor.com</address>
     </div>
  </footer>
-<!-- <script src="работа/js/Практика.js/практика.js"></script> -->
-</main></body>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./работа/js/js-dist.js"></script>
+</body>
